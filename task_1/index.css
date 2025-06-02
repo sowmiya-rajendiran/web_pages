@@ -569,6 +569,9 @@ a:focus-visible{
         text-align: center;
         display: block;
     }
+    .section_1 .btn{
+        width: 100%;
+    }
     .header_list li ,.sign_in .sign_up{
         margin-right: 0;
         margin-top: 10px;
@@ -576,14 +579,20 @@ a:focus-visible{
     .sign_in .login{
         margin-right: 0;
     }
+    .section_5 p{
+        text-align: center;
+    }
     .section_1 h1{
         font-size: 30px;
+        text-align: center;
     }
     .section_1 p,.sec2_header p, .sec3_header p , .btn a ,.sub_title {
         font-size: 15px;
+        text-align: center;
     }
     .sec2_header h2, .sec3_header h2, .section_5 h2, .contact h2 {
         font-size: 25px;
+        text-align: center;
     }
     .sec2_cards h3 {
         font-size: 20px;
@@ -624,7 +633,7 @@ a:focus-visible{
         height: 250px;
     }
 }
-@media screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
     .section_5 img {
         height: 228px;
         margin-top: 50px;
